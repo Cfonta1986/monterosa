@@ -1,11 +1,11 @@
 import Hero from "@/components/home/Hero";
-import FeaturedProperties from "@/components/home/FeaturedProperties";
+import DynamicProperties from "@/components/properties/dynamic-properties";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <FeaturedProperties />
+      <DynamicProperties />
 
       {/* Footer Placeholder for the Home Page layout */}
       <footer className="bg-gray-900 text-gray-400 py-12 text-center text-sm border-t border-gray-800 mt-24">
